@@ -1,0 +1,10 @@
+spring:
+  kafka:
+    producer:
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+
+topic:
+  transaction:
+    original: transactions
+    offer: offers
+    merchant: merchants
